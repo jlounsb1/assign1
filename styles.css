@@ -1,0 +1,94 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+ 
+.vert {
+    left:0;
+}
+
+ .vert ul{
+    width:150px;
+    height:100vh;
+    overflow:auto;
+    /*position:fixed;*/
+    
+ }
+
+ .vert li a{
+    text-align:left;
+    float:left;
+    display:block;
+ }
+ 
+
+ .vert li{
+    border:none;
+ }
+
+ .unique-sp {
+padding: 2em;
+/* display:inline;*/
+left:150px;
+top:0;
+ }
+
+ .middle {
+    display:flex;
+ 
+ }
+
+ .container {
+    display:flex;
+ }
+
+ .strugglebus{
+    display:flex;
+    flex-direction:column;
+ }
+
+ /* I wanted to add a border to show divs and how I want my sections to be divided I would remove this when more than a wireframe*/
+ div {
+border: 2px solid black;
+padding: 10 px;
+ }
+
+ button {
+    margin: 10px;
+    padding:10px;
+    color:lightblue;
+    border-radius:3px;
+    color:#111;
+ }
+ 
+ button:hover {
+    cursor: pointer;
+ }
